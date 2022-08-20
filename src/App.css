@@ -41,3 +41,33 @@
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.margin{
+  margin: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .LargeSize {
+      height: 200px;
+  }
+  h1 {
+      font-size: 25px;
+      
+  }
+
+  h2 {
+      font-size: 15px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+}

@@ -2,18 +2,24 @@
     width: 90%;
     height: 300px;
     border-radius: 25px;
-    background: black;
-
-    
+    background-color: #161622;
+    margin: 2%;
 }
+
+
+.SmallSize {
+    height: 600px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #161622;
+}
+
 
 h1 {
     color: white;
     text-align: center;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
-    
-    
 }
 
 h2 {
@@ -22,6 +28,17 @@ h2 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
+
+.LargeSize:hover {
+    transform: scale(1.01);
+    transition: all 0.1s ease-in-out;
+}
+
+.SmallSize:hover {
+    transform: scale(1.01);
+    transition: all 0.1s ease-in-out;
+}
+
 
 @media screen and (max-width: 600px) {
     .LargeSize {
@@ -35,5 +52,7 @@ h2 {
     h2 {
         font-size: 15px;
     }
+
+
 }
     
