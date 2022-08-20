@@ -1,0 +1,39 @@
+.LargeSize {
+    width: 90%;
+    height: 300px;
+    border-radius: 25px;
+    background: black;
+
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .LargeSize {
+        height: 200px;
+    }
+    h1 {
+        font-size: 25px;
+        
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}
+    
