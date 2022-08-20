@@ -7,7 +7,7 @@ function FlexWidget(props) {
 
     <div className="SmallSize">
         <h1>{props.title}</h1>
-        <h2>{props.secondary}</h2>
+        {props.secondary}
         <h2>{props.third}</h2>
     </div>
 

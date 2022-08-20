@@ -47,10 +47,25 @@
   align-items: center;
   justify-content: space-between;
   width: 90%;
+  
 }
 
 .margin{
   margin: 2%;
+}
+.Button{
+  background-color: #4158D0;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  width: 400px;
+  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -69,5 +84,12 @@
   .flex-container {
     flex-direction: column;
   }
+
+  .Button{
+    margin: 10px;
+    width: 200px;
+
+  }
+
 
 }

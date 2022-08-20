@@ -2,8 +2,12 @@
     width: 90%;
     height: 300px;
     border-radius: 25px;
+    align-items: center;
     background-color: #161622;
     margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
@@ -12,6 +16,10 @@
     width: 100%;
     border-radius: 25px;
     background-color: #161622;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 
@@ -40,9 +48,14 @@ h2 {
 }
 
 
+
+
 @media screen and (max-width: 600px) {
     .LargeSize {
-        height: 200px;
+        height: 300px;
+    }
+    .SmallSize {
+        height: 300px;
     }
     h1 {
         font-size: 25px;
