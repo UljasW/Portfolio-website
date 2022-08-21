@@ -6,8 +6,8 @@ function HorizontalWidget(props) {
   return (
     <div className="LargeSize">
       <h1>{props.title}</h1>
-      <h2>{props.secondary}</h2>
-      <h2>{props.third}</h2>
+      <p>{props.secondary}</p>
+      <p>{props.third}</p>
     </div>
   );
 }

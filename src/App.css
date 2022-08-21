@@ -51,7 +51,7 @@
 }
 
 .margin{
-  margin: 2%;
+  margin: 1%;
 }
 .Button{
   background-color: #4158D0;
@@ -64,9 +64,21 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   width: 400px;
-  
+  margin: 10px;
 
 }
+
+.Button:hover{
+  transform: scale(1.01);
+  transition: all 0.1s ease-in-out;
+}
+
+.Button:active{
+  transform: scale(0.99);
+  transition: all 0.1s ease-in-out;
+}
+
+
 
 @media screen and (max-width: 600px) {
   .LargeSize {
@@ -86,7 +98,6 @@
   }
 
   .Button{
-    margin: 10px;
     width: 200px;
 
   }

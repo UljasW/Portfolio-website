@@ -21,6 +21,8 @@ function ContactMe() {
             <form action="https://github.com/UljasW">
                 <input className='Button' type="submit" value="My linkedin" />
             </form>
+            
+
         </div>
 
     );

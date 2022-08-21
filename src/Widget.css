@@ -26,14 +26,16 @@
 h1 {
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size:calc(12px + 1.2vw);
     font-family: 'Roboto', sans-serif;
+    margin: 1%;
+    
 }
 
-h2 {
+p {
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size:calc(12px + 0.7vw);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -65,7 +67,28 @@ h2 {
     h2 {
         font-size: 15px;
     }
-
+    
 
 }
+
+@media screen and (min-width: 3840px) {
+
+    h1 {
+        font-size: 1.3vw;
+        
+    }
+
+    p {
+        font-size: 0.8vw;
+    }
+    
+
+}
+
+
+
+    
+
+    
+
     
