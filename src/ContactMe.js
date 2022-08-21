@@ -6,11 +6,7 @@ function ContactMe() {
 
     function OpenMail() {
         var email = 'uljas.wennstrom@gmail.com';
-        var subject = 'Test';
-        var emailBody = 'Hi Sample,';
-        var attach = 'path';
-        document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody+
-            "?attach="+attach;
+        document.location = "mailto:"+email
     }
     return (
 
@@ -27,8 +23,6 @@ function ContactMe() {
 
     );
 }
-
-
 
 
 
