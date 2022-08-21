@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/http//:UljasW.github.io/Portfolio-website/static/css/main.bda1a59d.css",
-    "main.js": "/http//:UljasW.github.io/Portfolio-website/static/js/main.010a5293.js",
-    "static/js/787.1ed0c42c.chunk.js": "/http//:UljasW.github.io/Portfolio-website/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/http//:UljasW.github.io/Portfolio-website/index.html",
-    "main.bda1a59d.css.map": "/http//:UljasW.github.io/Portfolio-website/static/css/main.bda1a59d.css.map",
-    "main.010a5293.js.map": "/http//:UljasW.github.io/Portfolio-website/static/js/main.010a5293.js.map",
-    "787.1ed0c42c.chunk.js.map": "/http//:UljasW.github.io/Portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/https//:UljasW.github.io/Portfolio-website/static/css/main.bda1a59d.css",
+    "main.js": "/https//:UljasW.github.io/Portfolio-website/static/js/main.c63b9c16.js",
+    "static/js/787.1ed0c42c.chunk.js": "/https//:UljasW.github.io/Portfolio-website/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/https//:UljasW.github.io/Portfolio-website/index.html",
+    "main.bda1a59d.css.map": "/https//:UljasW.github.io/Portfolio-website/static/css/main.bda1a59d.css.map",
+    "main.c63b9c16.js.map": "/https//:UljasW.github.io/Portfolio-website/static/js/main.c63b9c16.js.map",
+    "787.1ed0c42c.chunk.js.map": "/https//:UljasW.github.io/Portfolio-website/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bda1a59d.css",
-    "static/js/main.010a5293.js"
+    "static/js/main.c63b9c16.js"
   ]
 }
