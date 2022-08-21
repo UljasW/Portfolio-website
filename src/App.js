@@ -6,9 +6,8 @@ import AboutMe from './AboutMe';
 
 function App() {
   return (
-    <div className="App " >
-      <header className="App-header BackgroundGradient">
-
+    <div className="App BackgroundGradient " >
+      <main>
         <HorizontalWidget
           title="Hi there, i am Uljas Wennström."
           secondary="A 17 year old fullstack .NET and React developer."
@@ -18,12 +17,12 @@ function App() {
           <FlexWidget
             title="About me"
             secondary={<div><AboutMe /></div>} />
-          <div className='margin'/>
+          <div className='margin' />
           <FlexWidget
             title="Contact me!"
-            secondary={<div><ContactMe /></div>} 
-            />
-            
+            secondary={<div><ContactMe /></div>}
+          />
+
         </div>
 
         <HorizontalWidget
@@ -33,8 +32,8 @@ function App() {
             <form action="https://github.com/UljasW">
               <input className='Button' type="submit" value="My github" />
             </form>} />
-            
-        
+
+
         <div className='flex-container'>
           <FlexWidget />
           <div className='margin' />
@@ -48,8 +47,8 @@ function App() {
           <div className='margin' />
           <FlexWidget />
         </div>
+      </main>
 
-      </header>
     </div>
   );
 }
