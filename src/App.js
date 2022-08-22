@@ -12,6 +12,7 @@ function App() {
           title="Hi there, i am Uljas Wennström."
           secondary="A 17 year old fullstack .NET and React developer."
           third="I create websites, crossplatform native apps and more." />
+          
 
         <div className='flex-container'>
           <FlexWidget

@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
     
+    
 
 }
 .margin{
@@ -32,6 +33,7 @@ h1 {
     font-size:calc(12px + 1.2vw);
     font-family: 'Roboto', sans-serif;
     
+    
 }
 
 p {
@@ -39,6 +41,7 @@ p {
     text-align: center;
     font-size:calc(12px + 0.7vw);
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .LargeSize:hover {
@@ -57,6 +60,7 @@ p {
 @media screen and (max-width: 600px) {
     .LargeSize {
         height: 300px;
+        margin: 12%;
     }
     .SmallSize {
         height: 300px;
