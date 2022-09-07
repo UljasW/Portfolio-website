@@ -8,7 +8,7 @@ function FlexWidget(props) {
     <div className="SmallSize">
         <h1 className="margin">{props.title}</h1>
         {props.secondary}
-        <p>{props.third}</p>
+        <p style={{margin: "1rem 0rem"}}>{props.third}</p>
     </div>
 
   );
